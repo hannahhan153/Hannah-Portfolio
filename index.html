@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
 </head>
+
 <body>
-    <h1>hello worlds</h1>
+    <!-- name, photo or avatar, links to sections about me, portfolio, and contact aka navbar -->
+    <header>
+        <img class="profilePicture"
+            src="images/portfolio.jpg" alt="picture of Hannah in France river">
+        <h1>Hannah Han</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero div about me - explain a little about ourselves -->
+    <div id="about" class="intro">
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio.
+            I am Hannah Han, a nursing student at Biola University in California and a Computer Coding student at Columbia University School of Engineering.
+            I am a highly motivated and creative individual and enjoy learning and growing in my passions and interests.
+        </p>
+        <p>
+         This is my portfolio which includes many projects that I have worked on.    
+        </p>
+    </div>
+    
+    <!-- portfolio section to display other works -->
+    <div id="portfolio" class="projects">
+        <h1>Hannah's Portfolio</h1>
+        <!-- 5 images that lead to other projects (use placeholder images and text) -->
+        <img class="best"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F528%2F928%2F926%2Fantique-library-desk-wallpaper-preview.jpg&f=1&nofb=1" alt="antique library desk">
+        <section class="info">
+            <h3>Work #1</h3>
+        </section>
+        <img class=
+        "work"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fenjoyoxford.org%2Fsite%2Fassets%2Ffiles%2F1660%2Fimg_9346.900x0-is.jpg&f=1&nofb=1" alt="bridge in a forest with many trees">
+        <section class="info">
+            <h3>Work #2</h3>
+        </section>
+        <img class=
+        "work"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3142903.jpg&f=1&nofb=1" alt="ocean with waves crashing, beautiful cliff and clouds hovering over">
+        <section class="info">
+            <h3>Work #3</h3>
+        </section>
+        <img class=
+        "work"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fYqo-qbw7F_NRe5pg3y_gQHaE8%26pid%3DApi&f=1" alt="cup of latte with heart on it on a plate with a tea spoon">
+        <section class="info">
+            <h3>Work #4</h3>
+        </section>
+        <img class=
+        "work"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.olY6oVOm-wMF_H2otRMA1QHaE7%26pid%3DApi&f=1" alt="colorful classic books shelved together">
+        <section class="info">
+            <h3>Work #5</h3>
+        </section>
+    </div>
+    
+    
+    <!-- contact section / footer -->
+    <footer id="contact">
+        <h2>Contact Info</h2>
+        <div>
+            <a href="mailto:hannah.han@biola.edu">Email Address</a>
+            <a href="https://github.com/hannahhan153">GitHub</a>
+            <a href="https://open.spotify.com/playlist/6cQHy92LqIr0bRVeDv0p2g?si=4f7303bcd69c4cf1">Spotify</a>
+        </div>
+    </footer>
 </body>
+
 </html>
+
+<!-- mobile responsive -->
+    <!-- flexbox or media queries -->
